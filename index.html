@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -54,23 +54,45 @@
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/marwa.jpg" alt="" style="border-radius:50%;width:300px;">
+      <div class="container-fluid" id="header-container">
+          <br><br>
+        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/marwa3.png" alt="" style="border-radius:50%;width:300px;"> -->
         <h1 class="text-uppercase mb-0">Marwa Mahmoud</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Software Engineer</h2>
-        <!-- <div class="technologies">
-          <img src="img/technologies/HTML5.png" alt="" style="width:100px;height:50px;">
-          <img src="img/technologies/react.svg" alt="" style="width:100px;height:50px;">
-          <img src="img/technologies/js.png" alt="" style="width:100px;height:50px;">
-          <img src="img/technologies/nodejs.png" alt="" style="width:100px;height:50px;">
-          <img src="img/technologies/csharp.png" alt="" style="width:100px;height:50px;">
-          <img src="img/technologies/mongodb-logo.jpg" alt="" style="width:100px;height:50px;">
-
-        </div> -->
+        <h2 class="font-weight-light mb-0">Software <br> Engineer</h2>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
       </div>
     </header>
+
+        <!-- About Section -->
+        <section class="bg-primary text-white mb-0" id="about">
+          <div class="container">
+            <h2 class="text-center text-uppercase text-white">About</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">
+                      <img class="img-fluid mb-5 d-block mx-auto" src="img/marwa4.png" alt="" style="border-radius:50%;width:300px;">
+                    </p>
+                  </div>
+              <div class="col-lg-8 ml-auto">
+                <p class="lead">I am Full Stack Software Engineer with 5+ years experience and background in Computer Software Engineering. Track record building sophisticated applications from mockup to rollout, front end, back end full database and security. Comfortable working both in a team and independently. Excellent in collaborating with diverse multi-discipline teams, patient, fast learner, passionate about latest technologies and business environments. </p>
+                <p>
+                    <br><br><br>
+                </p>
+                <a class="btn btn-xl btn-outline-light" href="#">
+                  <i class="fa fa-download mr-2"></i>
+                  Download My Resume!
+                </a>
+              </div>
+              
+            </div>
+            <div class="text-center mt-4">
+              
+            </div>
+          </div>
+        </section>
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
@@ -142,30 +164,38 @@
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <!-- <div class="col-lg-8 ml-auto"> -->
-            <p class="lead">I am Full Stack Software Engineer with 5+ years experience and background in Computer Software Engineering. Track record building sophisticated applications from mockup to rollout, front end, back end full database and security. Comfortable working both in a team and independently. Excellent in collaborating with diverse multi-discipline teams, patient, fast learner, passionate about latest technologies and business environments. </p>
-          <!-- </div> -->
-          <div class="col-lg-4 mr-auto">
-            <p class="lead"></p>
+     <!-- Footer -->
+     <footer class="footer text-center" id="contact">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-md-4 mb-5 mb-lg-0 col-offset-4">
+              <h4 class="text-uppercase mb-4">Around the Web</h4>
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Marwa-Mahmoud" target="_blank">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://stackoverflow.com/users/7982832/marwa-mahmoud?tab=profile" target="_blank">
+                      <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/marwa-m-mahmoud/" target="_blank">
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download My Resume!
-          </a>
-        </div>
-      </div>
-    </section>
+      </footer>
+  
+
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section >
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
         <hr class="star-dark mb-5">
@@ -200,7 +230,7 @@
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message." 
+                  <textarea class="form-control" id="message" rows="3" placeholder="Message" required="required" data-validation-required-message="Please enter a message." 
                   name="Message"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
@@ -216,39 +246,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Irvine
-              <br>California</p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Marwa-Mahmoud" target="_blank">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://stackoverflow.com/users/7982832/marwa-mahmoud?tab=profile" target="_blank">
-                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/marwa-m-mahmoud/" target="_blank">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
+   
     <div class="copyright py-4 text-center text-white">
       <div class="container">
         <small>Copyright &copy; Marwa Mahmoud 2017</small>

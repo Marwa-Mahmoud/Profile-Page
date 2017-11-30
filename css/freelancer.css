@@ -15,11 +15,20 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
 
-header {
-  background-image: url('../img/workspace2.png');
+header{
+  height: 900px;
+  padding: 0;
+}  
+
+#header-container {
+
+  background-image: url('../img/workspace2 Edited.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100%;
+ 
+  background-position: center;
+  /* background-size: cover; */
+  background-size:100% 100%;
+  
   
 }
 
@@ -90,8 +99,8 @@ section {
     line-height: 3.1rem; }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   font-family: 'Montserrat'; }
   #mainNav .navbar-brand {
@@ -115,8 +124,8 @@ section {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
@@ -148,18 +157,19 @@ header.masthead {
     font-size: 3rem;
     line-height: 3rem; }
   header.masthead h2 {
-    font-size: 5rem !important;
+    font-size: 5rem;
     font-family: 'Lato'; }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(4rem + 60px);
-    padding-bottom: 6rem; }
+    padding-top: calc(2rem + 30px);
+    padding-bottom: 6rem;
+ }
     header.masthead h1 {
       font-size: 4.75em;
       line-height: 4rem; }
     header.masthead h2 {
-      font-size: 1.75em; } }
+      font-size: 5em; } }
 
 .portfolio {
   margin-bottom: -15px; }
@@ -256,8 +266,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef; }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #2C3E50;
   color: #fff; }
 
@@ -272,11 +282,6 @@ a {
 
 .btn {
   border-width: 2px; }
-
-/* .bg-primary {
-  background-color: rgb(240, 245, 244) !important; 
-  background-image: url('img/workplace-background.jpg') !important;
-} */
 
 .bg-secondary {
   background-color: #2C3E50 !important; }
@@ -303,6 +308,7 @@ a {
     border-color: #1a252f; }
 
     #about{
-      background-color:  #18BC9C !important;
-      
+      background-color:  #2C3E50 !important;
     }
+
+
